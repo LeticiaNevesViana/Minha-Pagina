@@ -1,0 +1,100 @@
+/*seletor{
+    propriedade: valor;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0:
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.banner{
+    background: url(../img/leticia.jpg) center,no-repeat;
+    background-size: cover;
+    height:90vh ;
+    text-align: center;
+    padding-top: 16rem ;
+    color: white;
+}
+.banner_titulo{
+    font-size:3rem ;
+    margin: 0;
+
+}
+
+.banner_descricao{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.botao{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-width: 0;
+}
+
+.botao-branco{
+    background-color:white;
+    color: purple;
+    
+}
+
+.botao-roxo{
+    background-color:rgb(218, 87, 218);
+    
+    
+    
+    
+}
+.container{
+    padding: 2rem;
+}
+.sobre_titulo{
+    text-align: center;
+}
+.sobre_descricao,.sobre_habilidades {
+    width: 40%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align:top;
+} 
+.sobre_habilidades_titulo, .sobre_habilidades_lista_item{
+text-rendering: auto;
+
+}
+ 
+.footer{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.redes-sociais_links{
+    display: inline-block;
+    background-color: purple;
+    width: 180px;
+    height: 180px;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    color: white;
+    
+    
+}
+.redes-sociais_img{
+ height: 80px;   
+}
